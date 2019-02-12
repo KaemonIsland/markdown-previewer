@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.preview {
+  max-height: 80vh;
+  overflow: scroll;
+  text-align: left;
+}
+
+.preview-wrapper {
+  width: 85%;
+}
+
+textarea {
+  height: 40rem;
+  width: 85%;
+}
+
+.editor-wrapper {
+}
